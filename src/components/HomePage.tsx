@@ -1,9 +1,14 @@
 export const HomePage = () => {
     const pages = [
         {
-            title: "Action example 1",
-            description: "Action example 1",
-            page: "actions-example-1"
+            title: "useTransition example",
+            description: "Example of form update with and without useTranstion hook",
+            page: "use-transition-example"
+        },
+        {
+            title: "Form actions",
+            description: "Using <form> actions and useActionState",
+            page: "form-actions-example"
         }
     ]
 
