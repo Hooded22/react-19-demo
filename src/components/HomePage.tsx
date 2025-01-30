@@ -9,7 +9,12 @@ export const HomePage = () => {
             title: "Form actions",
             description: "Using <form> actions and useActionState",
             page: "form-actions-example"
-        }
+        },
+        {
+            title: "Use Optimistic Example",
+            description: "Demonstration of optimistic UI updates using React",
+            page: "use-optimistic-example"
+        },
     ]
 
     return (
