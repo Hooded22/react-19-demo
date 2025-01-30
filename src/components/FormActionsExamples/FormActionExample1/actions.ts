@@ -1,6 +1,6 @@
 "use server";
 
-export async function addToCart(prevState: any, queryData: FormData) {
+export async function addToCart(_prevState: unknown, queryData: FormData) {
     const itemID = queryData.get('itemID');
     if (itemID === "1") {
         return "Added to cart";
