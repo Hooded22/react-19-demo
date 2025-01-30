@@ -17,6 +17,11 @@ export const HomePage = () => {
             description: "Demonstration of optimistic UI updates using React",
             page: "use-optimistic-example",
         },
+        {
+            title: "Use API Example",
+            description: "Example showcasing usage of new `use` React API",
+            page: "use-api-example",
+        },
     ];
 
     return (
