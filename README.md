@@ -1,4 +1,4 @@
-# React 19 + TypeScript Examples
+# React 19 new Hooks and APIs examples
 
 This project showcases examples of new **React 19** features with **TypeScript**. The following pages are included:
 
