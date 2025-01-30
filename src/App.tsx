@@ -1,6 +1,6 @@
 import './App.css'
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
-import {HomePage} from "./components/HomePage.tsx";
+import {HomePage} from "./components/HomePage/HomePage.tsx";
 import {UseTransitionExample} from "./components/UseTransitionExample";
 import {FormActionExample} from './components/FormActionsExamples/';
 import UseOptimisticExample from "./components/UseOptimisticExample/UseOptimisticExample.tsx";
