@@ -3,8 +3,8 @@ import Form from './Form';
 
 export default function ReadingContextWithUse() {
     return (
-        <ThemeContext.Provider value="dark">
-            <Form/>
-        </ThemeContext.Provider>
+        <ThemeContext value="dark">
+            <Form />
+        </ThemeContext>
     );
 }
