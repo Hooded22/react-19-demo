@@ -22,6 +22,11 @@ export const HomePage = () => {
             description: "Example showcasing usage of new `use` React API",
             page: "use-api-example",
         },
+        {
+            title: "Ref as Props",
+            description: "Example showcasing usage of ref as component prop withour forwardRef",
+            page: "ref-as-prop-example",
+        },
     ];
 
     return (
