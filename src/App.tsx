@@ -1,11 +1,11 @@
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import { HomePage } from "./components/HomePage/HomePage.tsx";
-import { UseTransitionExample } from "./components/UseTransitionExample";
-import { FormActionExample } from './components/FormActionsExamples/';
+import { UseTransitionExample } from "./components/UseTransitionExample/UseTransitionExample.tsx";
+import { FormActionExample } from './components/FormActionsExamples/FormActionExample.tsx';
 import UseOptimisticExample from "./components/UseOptimisticExample/UseOptimisticExample.tsx";
 import { UseAPIExample } from "./components/UseAPIExample/UseAPIExample.tsx";
-import { RefAsProp } from './components/RefAsProp/index.tsx';
+import { RefAsProp } from './components/RefAsProp/RefAsProp.tsx';
 import { MetadataExample } from './components/MetadataExample/MetadataExample.tsx';
 
 
